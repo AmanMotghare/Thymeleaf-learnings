@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Hello this page is to print object.</h1>
+
+<div th:object="${obj}">
+<p th:text="${obj.roll}">
+<p th:text="${obj.name}">
+</div>
+
+</body>
+</html>
